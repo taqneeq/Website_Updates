@@ -1,0 +1,168 @@
+@font-face {
+	font-family: "GilroyBold";
+	font-style: normal;
+	font-weight: normal;
+	src: local("GilroyBold â˜ž"),
+		url(../public/fonts/Gilroy-Bold.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: "GilroyHeavy";
+	font-style: normal;
+	font-weight: normal;
+	src: local("GilroyHeavy"),
+		url(../public/fonts/Gilroy-Heavy.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: "GilroyLight";
+	font-style: normal;
+	font-weight: normal;
+	src: local("GilroyLight"),
+		url(../public/fonts/Gilroy-Light.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: "GilroyMedium";
+	font-style: normal;
+	font-weight: normal;
+	src: local("Gilroy-Medium"),
+		url(../public/fonts/Gilroy-Medium.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: "GilroyRegular";
+	font-style: normal;
+	font-weight: normal;
+	src: local("GilroyRegular"),
+		url(../public/fonts/Gilroy-Regular.ttf) format("truetype");
+}
+
+body {
+	margin: 0 auto;
+	font-family: GilroyRegular !important;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+	font-family: GilroyBold !important;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
+}
+
+.transparent-white{
+    background-color: transparent !important;
+    /* backdrop-filter: blur(13px);
+    -webkit-backdrop-filter: blur(13px); */
+}
+
+.sticky{
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+
+.shadow-5-strong {
+    box-shadow: 0 2px 25px -5px rgba(0,0,0,.16),0 25px 21px -5px rgba(0,0,0,.1)!important;
+}
+
+.mt-6 {
+	margin-top: 6rem;
+}
+
+.display-3{
+    font-size: 65px !important;
+}
+
+.hero-hr {
+	height: 2px !important;
+	background: white;
+    bottom: 12rem !important;
+    position: relative;
+}
+
+.hero-hr:before {
+	content: "" !important;
+	height: 10px !important;
+	width: 10px !important;
+	border-radius: 10px !important;
+	float: left !important;
+	background: #ffff !important;
+	margin-top: -3px !important;
+}
+
+.play-icon {
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	/* display: flex; */
+	/* align-items: center;
+	justify-content: center; */
+	cursor: pointer;
+	position: relative;
+}
+/* .play-icon img {
+	width: 20px;
+	height: 20px;
+} */
+.play-icon img.second-img {
+	display: none;
+}
+
+.stroke-dotted {
+	opacity: 0;
+	stroke-dasharray: 4, 5;
+	stroke-width: 1px;
+	-webkit-transform-origin: 50% 50%;
+	transform-origin: 50% 50%;
+	-webkit-animation: spin 4s infinite linear;
+	animation: spin 4s infinite linear;
+	-webkit-transition: opacity 1s ease, stroke-width 1s ease;
+	transition: opacity 1s ease, stroke-width 1s ease;
+}
+/* spin animation  */
+
+@-webkit-keyframes spin {
+	to {
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+@keyframes spin {
+	to {
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+.stroke-solid {
+	stroke-dashoffset: 0;
+	stroke-dasharray: 300;
+	stroke-width: 4px;
+	-webkit-transition: stroke-dashoffset 1s ease, opacity 1s ease;
+	transition: stroke-dashoffset 1s ease, opacity 1s ease;
+}
+
+.icon {
+	-webkit-transform-origin: 50% 50%;
+	transform-origin: 50% 50%;
+	-webkit-transition: -webkit-transform 200ms ease-out;
+	transition: -webkit-transform 200ms ease-out;
+	transition: transform 200ms ease-out;
+	transition: transform 200ms ease-out, -webkit-transform 200ms ease-out;
+}
+#play:hover .stroke-dotted {
+	stroke-width: 4px;
+	opacity: 1;
+}
+#play:hover .stroke-solid {
+	opacity: 0;
+	stroke-dashoffset: 300;
+}
+#play:hover .icon {
+	-webkit-transform: scale(1.05);
+	transform: scale(1.05);
+}
