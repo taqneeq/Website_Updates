@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-// import Carousel from "@brainhubeu/react-carousel";
-// import "@brainhubeu/react-carousel/lib/style.css";
 
 const Person = (props) => {
   const [hover, setHover] = useState(false);
@@ -10,7 +8,7 @@ const Person = (props) => {
   };
 
   return (
-    <div className="col-lg-3 position-relative">
+    <div className="col-lg-3 position-relative mb-5 incIndex" style={props.pos}>
       <img
         className="w-100 grow"
         src={props.src}
@@ -19,7 +17,10 @@ const Person = (props) => {
         onMouseLeave={onHover}
       />
       {hover && (
-        <h1 className="text-white text-uppercase fw-bold show position-fixed top-50 start-50 translate-middle z-5">
+        <h1
+          className="text-white text-uppercase show position-fixed top-50 start-50 translate-middle"
+          style={{ fontSize: "4rem", fontWeight: "900" }}
+        >
           {props.name}
         </h1>
       )}
