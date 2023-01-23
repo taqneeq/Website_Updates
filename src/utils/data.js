@@ -7,6 +7,8 @@ export const coreData = [
       top: "1rem",
       left: "2rem",
     },
+    role: "Subhead",
+    dept: "Tech & Collab",
   },
   {
     id: 2,
@@ -16,6 +18,8 @@ export const coreData = [
       top: "5rem",
       left: "2rem",
     },
+    role: "Subhead",
+    dept: "Tech & Collab",
   },
   {
     id: 3,
@@ -25,6 +29,8 @@ export const coreData = [
       top: "8rem",
       left: "1rem",
     },
+    role: "Subhead",
+    dept: "Tech & Collab",
   },
   {
     id: 4,
@@ -34,6 +40,8 @@ export const coreData = [
       right: "0.5rem",
       bottom: "1rem",
     },
+    role: "Subhead",
+    dept: "Tech & Collab",
   },
   {
     id: 5,
@@ -43,6 +51,8 @@ export const coreData = [
       top: "1rem",
       left: "3rem",
     },
+    role: "Subhead",
+    dept: "Tech & Collab",
   },
   {
     id: 6,
@@ -52,6 +62,8 @@ export const coreData = [
       left: "1.5rem",
       bottom: "2rem",
     },
+    role: "Subhead",
+    dept: "Tech & Collab",
   },
   {
     id: 7,
@@ -61,6 +73,8 @@ export const coreData = [
       right: "2rem",
       top: "4rem",
     },
+    role: "Subhead",
+    dept: "Tech & Collab",
   },
   {
     id: 8,
@@ -69,6 +83,8 @@ export const coreData = [
     pos: {
       right: "1rem",
     },
+    role: "Subhead",
+    dept: "Tech & Collab",
   },
   {
     id: 9,
@@ -78,6 +94,8 @@ export const coreData = [
       top: "5rem",
       left: "2rem",
     },
+    role: "Subhead",
+    dept: "Tech & Collab",
   },
   {
     id: 10,
@@ -87,6 +105,8 @@ export const coreData = [
       top: "2rem",
       left: "2rem",
     },
+    role: "Subhead",
+    dept: "Tech & Collab",
   },
   {
     id: 11,
@@ -96,6 +116,8 @@ export const coreData = [
       top: "1rem",
       right: "2rem",
     },
+    role: "Subhead",
+    dept: "Tech & Collab",
   },
   {
     id: 12,
@@ -105,5 +127,7 @@ export const coreData = [
       right: "2rem",
       top: "2rem",
     },
+    role: "Subhead",
+    dept: "Tech & Collab",
   },
 ];

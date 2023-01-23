@@ -5,8 +5,8 @@ import { coreData } from "../utils/data";
 const Layout = () => {
   return (
     <div className="bg-altdark py-5" style={{ backgroundColor: "#121212" }}>
-      <div className="container-lg mx-auto">
-        <div className="row my-5 gx-5 gy-5 core-reveal justify-center">
+      <div className="container mt-5">
+        <div className="row gx-md-5 gy-md-5 core-reveal">
           {coreData.map((element) => {
             return (
               <Person
@@ -15,6 +15,8 @@ const Layout = () => {
                 src={element.src}
                 name={element.name}
                 pos={element.pos}
+                role={element.role}
+                dept={element.dept}
               />
             );
           })}

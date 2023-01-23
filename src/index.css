@@ -25,10 +25,15 @@
 }
 
 .show {
+  width: 90%;
   text-align: center;
-  font-size: 3.5rem;
-  font-weight: 900;
   animation: fadeIn 0.5s;
+}
+
+.show h1 {
+  text-transform: uppercase;
+  font-size: 3.5rem;
+  font-weight: 800;
 }
 
 @keyframes fadeIn {
@@ -50,7 +55,7 @@
     right: 0;
   }
 
-  .show {
+  .show h1 {
     font-size: 2.5rem;
   }
 
