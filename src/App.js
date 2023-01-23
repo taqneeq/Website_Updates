@@ -6,6 +6,7 @@ import ContactUs from "./pages/ContactUs.js";
 import Rewind from "./pages/Rewind.js";
 import Navbar from "./components/Navbar.js";
 import Preloader from './pages/Preloader';
+import Head from './pages/Head';
 
 
 function App()
@@ -17,6 +18,7 @@ function App()
                 <Route index element={<Home />} />
                 <Route exact path="contactus" element={<ContactUs />} />
                 <Route exact path="rewind" element={<Rewind />} />
+                <Route exact path="abouttq" element={<Head />} />
             </Routes>
         </BrowserRouter>
     );
