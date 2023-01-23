@@ -16,7 +16,7 @@ export default function Navbar()
                                     <li><a href="abouttq"><b>About TQ</b></a></li>
                                     <li><a href="#"><b>Schedule</b></a></li>
                                     <li><a href="#"><b>Events</b></a></li>
-                                    <li><a href="#"><b>Contact</b></a></li>
+                                    <li><a href="contactus"><b>Contact</b></a></li>
                                 </ul>
                             </div>
                         </div>

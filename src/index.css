@@ -534,13 +534,13 @@ code {
 
 
 .gallery {
-    background-color: #ffffff;
-    padding: 80px 0;
+    background-color: #000000;
+    padding-top: 12%;
 }
 
 .gallery img {
-    background-color: #ff6f00;
+    background-color: #7b00ff;
     padding: 15px;
     width: 100%;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 15px rgba(255, 0, 230, 0.258);
 }
