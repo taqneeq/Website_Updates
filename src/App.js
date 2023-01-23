@@ -13,7 +13,6 @@ function App()
     return (
         <BrowserRouter>
             <Navbar />
-            <Preloader />
             <Routes>
                 <Route index element={<Home />} />
                 <Route exact path="contactus" element={<ContactUs />} />
