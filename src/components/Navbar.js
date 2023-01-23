@@ -13,11 +13,10 @@ export default function Navbar()
                         <div>
                             <div>
                                 <ul>
-                                    <li><a href="#"><b>About</b></a></li>
-                                    <li><a href="#"><b>Services</b></a></li>
-                                    <li><a href="#"><b>Project</b></a></li>
+                                    <li><a href="#"><b>About TQ</b></a></li>
+                                    <li><a href="#"><b>Schedule</b></a></li>
+                                    <li><a href="#"><b>Events</b></a></li>
                                     <li><a href="#"><b>Case Studies</b></a></li>
-                                    <li><a href="#"><b>Contact</b></a></li>
                                 </ul>
                             </div>
                         </div>
