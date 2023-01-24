@@ -1,5 +1,5 @@
 import playButton from "../play-button.svg"
-import tqbg from "../assets/tqbg.jpg"
+import tqbg from "../assets/2.jpg"
 import { useNavigate } from "react-router-dom";
 
 function Home()
@@ -23,7 +23,7 @@ function Home()
                                 <strong className='fw-bold fade-in-text delayed'>ONE AND ONLY TECH FEST OF NMIMS</strong>
                             </div>
                         </div>
-                        <div className='mt-6'>
+                        <div className='mt-5'>
                             <div className="row fade-in-text delayed1">
                                 <div className="col-auto">
                                     <img className="play-icon mt-2" id="play" src={playButton} alt="Your SVG" onClick={routeChange}></img>
