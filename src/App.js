@@ -8,6 +8,7 @@ import Navbar from "./components/Navbar.js";
 import Preloader from './pages/Preloader';
 import Head from './pages/Head';
 import ParentContainer from './pages/ParentContainer';
+import Timeline from './pages/timeline';
 
 
 function App()
@@ -21,6 +22,7 @@ function App()
                 <Route exact path="rewind" element={<Rewind />} />
                 <Route exact path="sponsors" element={<Head />} />
                 <Route exact path="abouttq" element={<ParentContainer />} />
+                <Route exact path="schedule" element={<Timeline />} />
             </Routes>
         </BrowserRouter>
     );
