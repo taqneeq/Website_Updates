@@ -23,7 +23,7 @@ export default function Navbar()
                         </div>
                     </div>
                 </div>
-                <a class="navbar-brand fw-bold" href="contactus">Contact</a>
+                {/* <a class="navbar-brand fw-bold" href="contactus">Contact</a> */}
                 <a class="navbar-brand" href="/">
                     <img src={tqlogo} width="65" height="65" alt="" />
                 </a>
