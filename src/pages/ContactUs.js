@@ -33,7 +33,7 @@ function ContactUs()
                 </div>
             </div>
             <div className="container text-center mt-5">
-                <div className='fs-2 fw-semibold fst-italic'>Get in Touch with us !</div>
+                <div className='fs-2 fw-semibold fst'>Get in Touch with us!</div>
                 <div className="row mt-5 d-flex justify-content-center align-items-center h-100">
                     <div class="col-4 col-md-3" style={{ borderRight: '2px solid white' }}>
                         <div className='m-3'>
@@ -97,6 +97,7 @@ function ContactUs()
                                 <Form.Control.Feedback type="invalid">Please enter a message you want to send</Form.Control.Feedback>
                             </Form.Group>
                             <div className='text-center'>
+                                <br></br>
                                 <Button className='mt-4' variant="outline-light" size="lg" type="submit">Submit</Button>
                             </div>
                         </Form>
@@ -104,7 +105,8 @@ function ContactUs()
                             {/* <MapSection location={location} zoomLevel={17} /> include it here */}
                         </div>
                         <div className='text-center mt-5'>
-                            <div className='fs-2 fw-semibold fst-italic'>Connect with us !</div>
+                            <div className='fs-2 fw-semibold fst'>Connect with us!</div>
+                            <br></br>
                             <div className='d-flex justify-content-center align-items-center my-2'>
                                 <a target="_blank" href="https://www.facebook.com/taqneeq/">
                                     <img src="https://img.icons8.com/ios-filled/50/FFFFFF/facebook--v1.png" />
@@ -119,7 +121,10 @@ function ContactUs()
                                     <img src="https://img.icons8.com/glyph-neue/64/FFFFFF/linkedin.png" />
                                 </a>
                             </div>
+                            <br></br>
+                            <br></br>
                         </div>
+                        <br></br>
                     </div>
                 </div>
             </div>

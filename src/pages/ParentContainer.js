@@ -4,6 +4,9 @@ import logo1 from "../assets/img1.png"
 const ParentContainer = () => {
   return (
     <div className="parentContainer scroll-container">
+      
+      <span> ABOUT TAQNEEQ! </span>
+
       <div className="abouttext">
         <p>
           Over the years, Taqneeq has turned out to be an exceptional tech fest 
