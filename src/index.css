@@ -544,3 +544,45 @@ code {
     width: 100%;
     box-shadow: 0 0 15px rgba(255, 0, 230, 0.258);
 }
+
+.scroll-container {
+	height: calc(100vh - 200px);
+	overflow-y: scroll;
+	position: absolute;
+	top: -60px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+}
+
+.parentContainer {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 1rem;
+	margin-top: 200px;
+	margin-left: 50px;
+	flex-wrap: wrap;
+  }
+  
+  .abouttext {
+	color: white;
+	margin-right: 50px;
+	font-size: 20px;
+	width: 100%;
+  }
+  
+  .aboutimage {
+	margin-right: 50px;
+	width: 100%;
+  }
+  
+  @media (min-width: 600px) {
+	.abouttext {
+	  width: 40%;
+	}
+	.aboutimage {
+	  width: 40%;
+	}
+  }
+  
