@@ -2,7 +2,8 @@
 const Timeline=()=>{
     return(
         <>
-        <h2>SCHEDULE</h2>
+    <div>
+        <h2 className="scheduletext">SCHEDULE</h2>
     <div className="timeline"> 
       <div className="timeline__event  animated fadeInUp delay-3s timeline__event--type1">
         <div className="timeline__event__icon ">
@@ -144,6 +145,7 @@ const Timeline=()=>{
         </div>
       </div>
       <br></br>
+    </div>
     </div>
         </>
     )

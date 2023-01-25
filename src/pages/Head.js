@@ -42,7 +42,7 @@ export default function Head() {
         }
     }
     window.addEventListener("scroll", reveal);
-    const height = "630px";
+    const height = "600px";
     return (
         <>
             <section class="gallery min-vh-100" id="hide_sponsor">
