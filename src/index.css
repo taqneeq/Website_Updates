@@ -1,3 +1,7 @@
+html {
+	overflow-x: hidden;
+}
+
 @font-face {
 	font-family: "GilroyBold";
 	font-style: normal;
@@ -534,7 +538,7 @@ code {
 
 
 .gallery {
-	background-image: url("assets/bg2.jpg");
+	background-image: url("");
 	background-repeat: no-repeat;
 	background-size: cover;
     padding-top: 12%;
@@ -998,7 +1002,7 @@ body {
 	position: absolute;
 	bottom: 0;
 	right: 130px;
-	font-size: 60px;
+	font-size: 40px;
 	font-weight: 700;
 	color: #fff;
   }
@@ -1027,7 +1031,7 @@ body {
 	z-index: 100;
 	width: 400px;
 	height: 200px;
-	background-image: url("https://images.unsplash.com/photo-1525543907410-b2562b6796d6?ixlib=rb-0.3.5&s=9ff8e5e718a6a40cbd0e1471235912f4&auto=format&fit=crop&w=3452&q=80");
+	background-image: url("assets/arvr2.jpg");
 	background-size: 100% 100%;
 	filter: grayscale(100%);
   }
@@ -1095,11 +1099,33 @@ body {
 	filter: grayscale(0);
   }
   .eventscont .zcard2 .pic {
-	background-image: url("https://images.unsplash.com/photo-1528785198459-ec50485704c7?ixlib=rb-0.3.5&s=3a2fc3039516555bbb2e9cd2967bd321&auto=format&fit=crop&w=1537&q=80");
+	background-image: url("assets/msport.jpg");
   }
-  .eventscont .zcard2 button {
+
+  .eventscont .zcard3 .pic {
+	background-image: url("assets/gamedev.jpg");
+  }
+
+  .eventscont .zcard4 .pic {
+	background-image: url("assets/drone.jpg");
+  }
+
+  .eventscont .zcard button {
 	background-color: #2b26c3;
   }
+
+  .eventscont .zcard2 button {
+	background-color: #2d006ba6;
+  }
+
+  .eventscont .zcard3 button {
+	background-color: #780000af;
+  }
+
+  .eventscont .zcard4 button {
+	background-color: #075410c4;
+  }
+
   .dr {
 	position: absolute;
 	bottom: 16px;

@@ -4,7 +4,7 @@ import tqbg from "../assets/bg4.jpg"
 
 const ParentContainer = () => {
   return (
-    <><div style={{ height: '100vh', backgroundImage: `url(${ tqbg })`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
+    <><div>
       <span> ABOUT TAQNEEQ! </span>
     <div className="parentContainer scroll-c">
         <div className="abouttext">
