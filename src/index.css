@@ -197,6 +197,9 @@ code {
 	.menu-wrap {
 		margin: 3.5rem 0rem 0rem 6rem;
 	}
+	.mt-10 {
+		margin-top: 6rem;
+	}
 }
 
 .menu-wrap .toggler {
@@ -389,6 +392,10 @@ code {
 	margin-top: 6rem;
 }
 
+.mt-10 {
+	margin-top: 10rem;
+}
+
 .display-3 {
 	font-size: 65px !important;
 }
@@ -527,28 +534,26 @@ code {
 	position: absolute;
 }
 
-
 /* Sponsor CSS */
 
 .sponsor img {
-    object-fit: contain;
-    width: 100%;
-    height: 100px;
+	object-fit: contain;
+	width: 100%;
+	height: 100px;
 }
-
 
 .gallery {
 	background-image: url("");
 	background-repeat: no-repeat;
 	background-size: cover;
-    padding-top: 12%;
+	padding-top: 12%;
 }
 
 .gallery img {
-    background-color: #7b00ff;
-    padding: 15px;
-    width: 100%;
-    /* box-shadow: 0 0 15px rgba(255, 0, 230, 0.258); */
+	background-color: #7b00ff;
+	padding: 15px;
+	width: 100%;
+	/* box-shadow: 0 0 15px rgba(255, 0, 230, 0.258); */
 	overflow-x: hidden;
 }
 
@@ -575,61 +580,59 @@ code {
 	margin-top: 23px;
 	margin-left: 50px;
 	flex-wrap: wrap;
-  }
-  
-  .abouttext {
+}
+
+.abouttext {
 	color: white;
 	margin-right: 50px;
 	font-size: 20px;
 	width: 100%;
-  }
-  
-  .aboutimage {
-	margin-right: 50px;
-	width: 100%;
-  }
-  
-  @media (min-width: 600px) {
-	.abouttext {
-	  width: 40%;
-	}
-	.aboutimage {
-	  width: 40%;
-	}
-  }
-  
-
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-
-span {
-  font-family: 'Bebas Neue', cursive;
-  font-size: 60px;
-  position: absolute;
-  top: 20%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  background-image: linear-gradient(rgb(123, 0, 255), rgb(123, 0, 255));
-  background-size: 100% 10px;
-  background-repeat: no-repeat;
-  background-position: 100% 0%;
-  transition: background-size .7s, background-position .5s ease-in-out;
-  color: white;
 }
 
-span:hover {	
-  background-size: 100% 100%;
-  background-position: 0% 100%;
-  transition: background-position .7s, background-size .5s ease-in-out;
+.aboutimage {
+	margin-right: 50px;
+	width: 100%;
+}
+
+@media (min-width: 600px) {
+	.abouttext {
+		width: 40%;
+	}
+	.aboutimage {
+		width: 40%;
+	}
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+span {
+	font-family: "Bebas Neue", cursive;
+	font-size: 60px;
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-image: linear-gradient(rgb(123, 0, 255), rgb(123, 0, 255));
+	background-size: 100% 10px;
+	background-repeat: no-repeat;
+	background-position: 100% 0%;
+	transition: background-size 0.7s, background-position 0.5s ease-in-out;
+	color: white;
+}
+
+span:hover {
+	background-size: 100% 100%;
+	background-position: 0% 100%;
+	transition: background-position 0.7s, background-size 0.5s ease-in-out;
 }
 
 @media (max-width: 600px) {
 	span {
-	  font-size: 2rem;
-	  top: 20%;
-	  background-size: 100% 5px;
+		font-size: 2rem;
+		top: 20%;
+		background-size: 100% 5px;
 	}
-  }
-  
+}
 
 /* Schedule */
 
@@ -656,7 +659,7 @@ body {
 
 @media only screen and (max-width: 600px) {
 	.scheduletext {
-	font-size: 3rem; /* adjust as needed */
+		font-size: 3rem; /* adjust as needed */
 	}
 }
 
@@ -730,7 +733,9 @@ body {
 
 .timeline__event__content {
 	padding: 20px;
-	box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25), 0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+	box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
+		0 18px 36px -18px rgba(0, 0, 0, 0.3),
+		0 -12px 36px -8px rgba(0, 0, 0, 0.025);
 	background: #fff;
 	width: calc(40vw - 84px);
 	border-radius: 0 6px 6px 0;
@@ -760,7 +765,9 @@ body {
 	background: #f6a4ec;
 	border-radius: 100%;
 	width: 40px;
-	box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25), 0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+	box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
+		0 18px 36px -18px rgba(0, 0, 0, 0.3),
+		0 -12px 36px -8px rgba(0, 0, 0, 0.025);
 	padding: 40px;
 	height: 40px;
 	position: relative;
@@ -923,7 +930,7 @@ body {
 
 /* Events */
 
-  i {
+i {
 	opacity: 0;
 	font-size: 18px;
 	color: #fff;
@@ -932,15 +939,15 @@ body {
 	transform: scale(0.1);
 	-webkit-transition: all 0.2s ease;
 	transition: all 0.2s ease;
-  }
-  h2 {
+}
+h2 {
 	pointer-events: none;
-  }
-  body {
+}
+body {
 	width: 100vw;
 	height: 100vh;
-  }
-  .eventscont {
+}
+.eventscont {
 	width: 100%;
 	height: 100%;
 	display: flex;
@@ -949,16 +956,16 @@ body {
 	flex-direction: column;
 	margin-top: 15%;
 	padding-bottom: 8%;
-  }
-  .eventscont .zcard {
+}
+.eventscont .zcard {
 	position: relative;
 	width: 500px;
 	height: 200px;
 	background-color: #fff;
 	overflow: hidden;
 	margin-bottom: 4px;
-  }
-  .eventscont .zcard:before {
+}
+.eventscont .zcard:before {
 	content: "";
 	z-index: 99;
 	position: absolute;
@@ -969,8 +976,8 @@ body {
 	height: 16px;
 	border-radius: 16px;
 	background-color: #e6e5e1;
-  }
-  .eventscont .zcard:after {
+}
+.eventscont .zcard:after {
 	content: "";
 	z-index: 99;
 	position: absolute;
@@ -981,22 +988,22 @@ body {
 	height: 16px;
 	border-radius: 16px;
 	background-color: #e6e5e1;
-  }
-  .eventscont .zcard ul {
+}
+.eventscont .zcard ul {
 	z-index: 99;
 	position: absolute;
 	left: 39px;
 	top: 5px;
 	list-style-type: none;
-  }
-  .eventscont .zcard ul li {
+}
+.eventscont .zcard ul li {
 	width: 2px;
 	height: 2px;
 	border-radius: 2px;
 	margin: 6px 0;
 	background-color: #e6e5e1;
-  }
-  .eventscont .zcard h2 {
+}
+.eventscont .zcard h2 {
 	z-index: 99;
 	font-family: "Poppins", sans-serif;
 	position: absolute;
@@ -1005,16 +1012,16 @@ body {
 	font-size: 40px;
 	font-weight: 700;
 	color: #fff;
-  }
-  .eventscont .zcard .fa-arrow-right {
+}
+.eventscont .zcard .fa-arrow-right {
 	z-index: 100;
 	position: absolute;
 	right: 75px;
 	bottom: 25px;
 	font-size: 40px;
 	cursor: pointer;
-  }
-  .eventscont .zcard p {
+}
+.eventscont .zcard p {
 	z-index: 99;
 	position: absolute;
 	top: 20px;
@@ -1026,16 +1033,16 @@ body {
 	writing-mode: vertical-lr;
 	-webkit-transition: all 0.2s ease;
 	transition: all 0.2s ease;
-  }
-  .eventscont .zcard .pic {
+}
+.eventscont .zcard .pic {
 	z-index: 100;
 	width: 400px;
 	height: 200px;
 	background-image: url("assets/arvr2.jpg");
 	background-size: 100% 100%;
 	filter: grayscale(100%);
-  }
-  .eventscont .zcard .social {
+}
+.eventscont .zcard .social {
 	position: absolute;
 	left: 60px;
 	top: 0;
@@ -1050,29 +1057,29 @@ body {
 	width: 180px;
 	height: 64px;
 	border-radius: 80px;
-  }
-  .eventscont .zcard .social i:nth-of-type(1) {
+}
+.eventscont .zcard .social i:nth-of-type(1) {
 	-webkit-transition-delay: 0.4s;
 	transition-delay: 0.4s;
-  }
-  .eventscont .zcard .social i:nth-of-type(2) {
+}
+.eventscont .zcard .social i:nth-of-type(2) {
 	-webkit-transition-delay: 0.3s;
 	transition-delay: 0.3s;
-  }
-  .eventscont .zcard .social i:nth-of-type(3) {
+}
+.eventscont .zcard .social i:nth-of-type(3) {
 	-webkit-transition-delay: 0.2s;
 	transition-delay: 0.2s;
-  }
-  .eventscont .zcard .social i:nth-of-type(4) {
+}
+.eventscont .zcard .social i:nth-of-type(4) {
 	-webkit-transition-delay: 0.1s;
 	transition-delay: 0.1s;
-  }
-  .eventscont .zcard:hover i {
+}
+.eventscont .zcard:hover i {
 	opacity: 1;
 	-webkit-transform: scale(1);
 	transform: scale(1);
-  }
-  .eventscont .zcard button {
+}
+.eventscont .zcard button {
 	position: absolute;
 	right: 14px;
 	bottom: 14px;
@@ -1085,51 +1092,71 @@ body {
 	outline: none;
 	transition: all 0.3s ease;
 	mix-blend-mode: hard-light;
-  }
-  .eventscont .zcard button i {
+}
+.eventscont .zcard button i {
 	font-size: 3rem;
-  }
-  .eventscont .zcard:hover button {
+}
+.eventscont .zcard:hover button {
 	transform: scale(16.5);
-  }
-  .eventscont .zcard:hover p {
+}
+.eventscont .zcard:hover p {
 	color: #fff;
-  }
-  .eventscont .zcard:hover .pic {
+}
+.eventscont .zcard:hover .pic {
 	filter: grayscale(0);
-  }
-  .eventscont .zcard2 .pic {
+}
+.eventscont .zcard2 .pic {
 	background-image: url("assets/msport.jpg");
-  }
+}
 
-  .eventscont .zcard3 .pic {
+.eventscont .zcard3 .pic {
 	background-image: url("assets/gamedev.jpg");
-  }
+}
 
-  .eventscont .zcard4 .pic {
+.eventscont .zcard4 .pic {
 	background-image: url("assets/drone.jpg");
-  }
+}
 
-  .eventscont .zcard button {
+.eventscont .zcard button {
 	background-color: #2b26c3;
-  }
+}
 
-  .eventscont .zcard2 button {
+.eventscont .zcard2 button {
 	background-color: #2d006ba6;
-  }
+}
 
-  .eventscont .zcard3 button {
+.eventscont .zcard3 button {
 	background-color: #780000af;
-  }
+}
 
-  .eventscont .zcard4 button {
+.eventscont .zcard4 button {
 	background-color: #075410c4;
-  }
+}
 
-  .dr {
+.dr {
 	position: absolute;
 	bottom: 16px;
 	right: 16px;
 	width: 100px;
-  }
-  
+}
+
+.properties {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+::-webkit-scrollbar {
+	width: 5px;
+	background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #cacaca;
+	border-radius: 5px;
+}
+
+.mouse-pointer {
+    cursor: pointer;
+}

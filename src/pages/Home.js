@@ -1,13 +1,14 @@
 import playButton from "../play-button.svg"
 import tqbg from "../assets/2.jpg"
 import { useNavigate } from "react-router-dom";
+import eventIcon from "../assets/event.png"
 
 function Home()
 {
     let navigate = useNavigate();
     const routeChange = () =>
     {
-        let path = `rewind`;
+        let path = `events`;
         navigate(path);
     }
     return (
@@ -23,10 +24,10 @@ function Home()
                                 <strong className='fw-bold fade-in-text delayed'>ONE AND ONLY TECH FEST OF NMIMS</strong>
                             </div>
                         </div>
-                        <div className='mt-5'>
+                        <div className='mt-5 mouse-pointer' onClick={routeChange}>
                             <div className="row fade-in-text delayed1">
                                 <div className="col-auto">
-                                    <img className="play-icon mt-2" id="play" src={playButton} alt="Your SVG" onClick={routeChange}></img>
+                                    <img className="mt-2 mouse-pointer" id="" src={eventIcon} alt="Your SVG"></img>
                                 </div>
                                 <div className="col-9 col-md-4">
                                     <div className='fw-bold fs-5'>Check Out Our Events Page!</div>
