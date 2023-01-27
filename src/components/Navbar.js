@@ -18,6 +18,7 @@ export default function Navbar()
                                     <li><a href="schedule"><b>Schedule</b></a></li>
                                     <li><a href="events"><b>Workshops</b></a></li>
                                     <li><a href="contactus"><b>Contact</b></a></li>
+                                    <li><a href="rewind"><b>Rewind</b></a></li>
                                 </ul>
                             </div>
                         </div>
