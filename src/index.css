@@ -69,7 +69,7 @@ code {
 
 @import url("https://fonts.cdnfonts.com/css/mortend");
 
-.loading-page.loaded {
+/* .loading-page.loaded {
 	display: none;
 }
 .loading-page {
@@ -111,7 +111,7 @@ code {
 }
 .loading-page-text span {
 	display: inline-block;
-}
+} */
 
 .fw-bold {
 	font-family: GilroyBold !important;
@@ -391,6 +391,9 @@ code {
 .mt-6 {
 	margin-top: 6rem;
 }
+.mt-10{
+    margin-top: 10rem;
+}
 
 .mt-10 {
 	margin-top: 10rem;
@@ -415,78 +418,6 @@ code {
 	float: left !important;
 	background: #ffff !important;
 	margin-top: -3px !important;
-}
-
-.play-icon {
-	border-radius: 50%;
-	width: 60px;
-	height: 60px;
-	/* display: flex; */
-	/* align-items: center;
-	justify-content: center; */
-	cursor: pointer;
-	position: relative;
-}
-/* .play-icon img {
-	width: 20px;
-	height: 20px;
-} */
-.play-icon img.second-img {
-	display: none;
-}
-
-.stroke-dotted {
-	opacity: 0;
-	stroke-dasharray: 4, 5;
-	stroke-width: 1px;
-	-webkit-transform-origin: 50% 50%;
-	transform-origin: 50% 50%;
-	-webkit-animation: spin 4s infinite linear;
-	animation: spin 4s infinite linear;
-	-webkit-transition: opacity 1s ease, stroke-width 1s ease;
-	transition: opacity 1s ease, stroke-width 1s ease;
-}
-/* spin animation  */
-
-@-webkit-keyframes spin {
-	to {
-		-webkit-transform: rotate(360deg);
-		transform: rotate(360deg);
-	}
-}
-@keyframes spin {
-	to {
-		-webkit-transform: rotate(360deg);
-		transform: rotate(360deg);
-	}
-}
-.stroke-solid {
-	stroke-dashoffset: 0;
-	stroke-dasharray: 300;
-	stroke-width: 4px;
-	-webkit-transition: stroke-dashoffset 1s ease, opacity 1s ease;
-	transition: stroke-dashoffset 1s ease, opacity 1s ease;
-}
-
-.icon {
-	-webkit-transform-origin: 50% 50%;
-	transform-origin: 50% 50%;
-	-webkit-transition: -webkit-transform 200ms ease-out;
-	transition: -webkit-transform 200ms ease-out;
-	transition: transform 200ms ease-out;
-	transition: transform 200ms ease-out, -webkit-transform 200ms ease-out;
-}
-#play:hover .stroke-dotted {
-	stroke-width: 4px;
-	opacity: 1;
-}
-#play:hover .stroke-solid {
-	opacity: 0;
-	stroke-dashoffset: 300;
-}
-#play:hover .icon {
-	-webkit-transform: scale(1.05);
-	transform: scale(1.05);
 }
 
 .contact-border {
@@ -632,6 +563,9 @@ span:hover {
 		top: 20%;
 		background-size: 100% 5px;
 	}
+    .mt-10{
+        margin-top: 6.7rem;
+    }
 }
 
 /* Schedule */
