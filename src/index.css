@@ -389,6 +389,10 @@ code {
 	margin-top: 6rem;
 }
 
+.mt-10{
+    margin-top: 10rem;
+}
+
 .display-3 {
 	font-size: 65px !important;
 }
@@ -601,7 +605,7 @@ code {
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-span {
+/* span {
   font-family: 'Bebas Neue', cursive;
   font-size: 60px;
   position: absolute;
@@ -628,7 +632,7 @@ span:hover {
 	  top: 20%;
 	  background-size: 100% 5px;
 	}
-  }
+  } */
   
 
 /* Schedule */
@@ -1132,4 +1136,22 @@ body {
 	right: 16px;
 	width: 100px;
   }
+
+  .properties {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 5px;
+    background-color: transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #cacaca;
+    border-radius: 5px;
+  }
+  
   
