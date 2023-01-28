@@ -1092,3 +1092,52 @@ body {
 .mouse-pointer {
     cursor: pointer;
 }
+/* events page */
+.container-event img {
+	
+	width: 30%;
+	height: 100%;
+	object-fit:cover;
+	
+	-webkit-box-reflect:below 2px linear-gradient(transparent, transparent, #0004);
+	
+	transform-origin:center;
+	transform:perspective(800px) 
+	rotateY(25deg);
+	transition:0.5s;
+  }
+
+  .container-event {
+	max-width:600px;
+	max-height:350px;
+	display:flex;
+	flex-wrap: wrap;
+   justify-content:center;
+   align-items:center;
+   gap:30px;
+}
+.container-event:hover img {
+	opacity:0.3;
+  }
+  .container-event img:hover {
+	transform:perspective(800px)       rotateY(0deg);
+	opacity:1;
+  }
+.bodyevent{
+	width: 100%;
+	height: 100vh;
+	background-color:#000;
+	display:grid;
+	place-items:center;
+}
+.card-img-top{
+	height: 400px;
+	object-fit: cover;
+
+}	
+.modal-header{
+	border-color: white;
+}
+.modal-body{
+	color:black;
+}
