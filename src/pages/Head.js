@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import { useEffect } from 'react';
 import Aos from 'aos';
 import "aos/dist/aos.css";
+import Animate_cursor from '../components/animate_cursor'
+
 
 export default function Head() {
 
@@ -45,6 +47,7 @@ export default function Head() {
     const height = "600px";
     return (
         <>
+            <Animate_cursor />
             <section class="gallery min-vh-100" id="hide_sponsor">
                 <div class="container-lg" data-aos="fade-up">
                     <div class="sponsor row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3" data-aos="fade-up">

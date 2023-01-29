@@ -1,7 +1,11 @@
 import React from 'react'
+import Animate_cursor from '../components/animate_cursor'
+
 export default function Event()
 {
     return (
+      <>
+            <Animate_cursor />
             <div>
               
                 <div class="bodyevent">
@@ -131,5 +135,8 @@ export default function Event()
 
 
 
-    </div>)
+    </div>
+    </>
+    
+    )
 }

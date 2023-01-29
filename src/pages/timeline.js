@@ -1,7 +1,10 @@
+import Animate_cursor from '../components/animate_cursor'
 
 const Timeline=()=>{
     return(
         <>
+        
+            <Animate_cursor />
     <div>
         <h2 className="scheduletext">SCHEDULE</h2>
     <div className="timeline"> 

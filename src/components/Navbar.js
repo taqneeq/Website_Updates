@@ -1,9 +1,18 @@
 import React from 'react'
 import tqlogo from "../assets/tqlogo.png"
+import Animate_cursor from '../components/animate_cursor'
+import { useEffect } from 'react';
+import { useState } from 'react'
+import Aos from 'aos';
+import "aos/dist/aos.css";
+
 
 export default function Navbar()
 {
+    
+
     return (
+        <>
         <div>
             <nav className="navbar navbar-dark shadow-5-strong p-navbar fixed-top">
                 <div className="menu-wrap">
@@ -31,5 +40,8 @@ export default function Navbar()
                 </a>
             </nav>
         </div>
+        <Animate_cursor />
+
+        </>
     )
 }

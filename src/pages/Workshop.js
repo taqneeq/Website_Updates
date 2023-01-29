@@ -1,7 +1,10 @@
 import React from 'react'
+import Animate_cursor from '../components/animate_cursor'
 
 export default function Workshop() {
   return (
+    <>
+            <Animate_cursor />
     <div>
         <div class="eventscont">
   <div class="zcard">
@@ -167,5 +170,6 @@ export default function Workshop() {
 
 
     </div>
+    </>
   )
 }

@@ -5,7 +5,7 @@ import address from '../assets/location.png'
 import email from '../assets/email.png'
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
-
+import Animate_cursor from '../components/animate_cursor'
 function ContactUs()
 {
     const [validated, setValidated] = useState(false);
@@ -22,6 +22,8 @@ function ContactUs()
         setValidated(true);
     };
     return (
+        <>
+            <Animate_cursor />
         <div className='bg-black bg-gradient text-white'>
             <div className="text-center bg-image" style={{ backgroundImage: `url(${ nmims })`, height: '400px', backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'center' }}>
                 <div className="h-100" style={{ backgroundColor: 'rgba(0, 0, 0, 0.6)' }}>
@@ -129,6 +131,7 @@ function ContactUs()
                 </div>
             </div>
         </div >
+        </>
     )
 }
 
