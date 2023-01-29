@@ -9,10 +9,10 @@ import "aos/dist/aos.css";
 
 export default function Navbar()
 {
-    
 
     return (
         <>
+        <Animate_cursor/>
         <div>
             <nav className="navbar navbar-dark shadow-5-strong p-navbar fixed-top">
                 <div className="menu-wrap">
@@ -40,7 +40,7 @@ export default function Navbar()
                 </a>
             </nav>
         </div>
-        <Animate_cursor />
+        
 
         </>
     )
