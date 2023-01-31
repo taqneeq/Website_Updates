@@ -653,7 +653,8 @@ body {
 	content: "";
 	width: 2px;
 	height: 100%;
-	background: #f6a4ec;
+	background: #6c2e84
+;
 	position: absolute;
 	top: 0%;
 	left: 50%;
@@ -667,7 +668,8 @@ body {
 	content: "";
 	width: 100%;
 	height: 2px;
-	background: #f6a4ec;
+	background: #6c2e84
+;
 	position: absolute;
 	right: 0;
 	z-index: -1;
@@ -697,7 +699,8 @@ body {
 }
 
 .timeline__event__date {
-	color: #f6a4ec;
+	color: white
+;
 	font-size: 1.5rem;
 	font-weight: 600;
 	background: #9251ac;
@@ -717,7 +720,8 @@ body {
 	padding: 20px;
 	align-self: center;
 	margin: 0 20px;
-	background: #f6a4ec;
+	background: #6c2e84
+;
 	border-radius: 100%;
 	width: 40px;
 	box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
@@ -736,7 +740,8 @@ body {
 	content: "";
 	width: 2px;
 	height: 100%;
-	background: #f6a4ec;
+	background: #6c2e84
+;
 	position: absolute;
 	top: 0%;
 	z-index: -1;
@@ -749,7 +754,8 @@ body {
 	content: "";
 	width: 100%;
 	height: 2px;
-	background: #f6a4ec;
+	background: #6c2e84
+;
 	position: absolute;
 	left: 0%;
 	z-index: -1;
@@ -1158,8 +1164,7 @@ body {
 	height: 100%;
 	object-fit: cover;
 
-	-webkit-box-reflect: below 2px linear-gradient(transparent, transparent, #0004);
-
+	
 	transform-origin: center;
 	transform: perspective(800px) rotateY(25deg);
 	transition: 0.5s;
@@ -1283,6 +1288,7 @@ body {
 	padding: 16px 0px;
 }
 
+<<<<<<< HEAD
 
 /* video background */
 
@@ -1308,3 +1314,6 @@ body {
 	bottom: 0;
 	z-index: -1;
 }
+=======
+/* heading */
+>>>>>>> 32ffd7697240c802ca8fc80176a6ac10e8a7cdc0
