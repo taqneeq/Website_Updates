@@ -3,13 +3,13 @@ import logo1 from "../assets/img1.png"
 import tqbg from "../assets/bg4.jpg"
 import Animate_cursor from '../components/animate_cursor'
 
-
 const ParentContainer = () => {
   return (
     <>
+    
             <Animate_cursor />
     <div>
-      <span> ABOUT TAQNEEQ! </span>
+
     <div className="parentContainer scroll-c">
         <div className="abouttext">
           <p>
