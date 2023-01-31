@@ -1,6 +1,6 @@
 html {
-	overflow-x: hidden;
 	scroll-behavior: smooth;
+	overflow-x: hidden;
 }
 
 @font-face {
@@ -890,7 +890,7 @@ body {
 	}
 }
 
-/* Events */
+/* Workshops */
 
 i {
 	opacity: 0;
@@ -925,11 +925,17 @@ body {
 
 .eventscont .zcard {
 	position: relative;
-	width: 500px;
+	width: 1000px;
 	height: 200px;
 	background-color: #fff;
 	overflow: hidden;
-	margin-bottom: 4px;
+	margin-bottom: 50px;
+}
+
+@media (max-width: 768px) {
+	.eventscont .zcard {
+	width: 80%;
+	}
 }
 
 .eventscont .zcard:before {
@@ -1010,12 +1016,15 @@ body {
 
 .eventscont .zcard .pic {
 	z-index: 100;
-	width: 400px;
+	width: 900px;
 	height: 200px;
 	background-image: url("assets/arvr2.jpg");
-	background-size: 100% 100%;
+	background-size: 100%;
+	background-position: center;
 	filter: grayscale(100%);
 }
+
+
 
 .eventscont .zcard .social {
 	position: absolute;
@@ -1146,6 +1155,8 @@ body {
 .mouse-pointer {
 	cursor: pointer;
 }
+
+
 
 /* events page */
 :root{
@@ -1339,4 +1350,28 @@ body {
 	padding: 16px 0px;
 }
 
-/* heading */
+/* video background */
+
+.bgvid {
+	position: fixed;
+	right: -32%;
+	bottom: -24%;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	margin: auto;
+	z-index: -100;
+}
+
+.svid {
+	width: 100vh;
+	height: 100vh;
+	object-fit: cover;
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: -1;
+}
+

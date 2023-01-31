@@ -3,6 +3,7 @@ import tqbg from "../assets/2.jpg"
 import { useNavigate } from "react-router-dom";
 import eventIcon from "../assets/event.png"
 import Animate_cursor from '../components/animate_cursor'
+import svid from "../assets/bgvi.mp4"
 
 
 function Home()
@@ -16,8 +17,15 @@ function Home()
     return (
         <>
             <Animate_cursor />
+
+            <div className="bgvid">
+
+            <video autoPlay loop muted>
+                <source src = {svid} type="video/mp4"/>
+            </video>
+
+            </div>
         <div>
-            <div style={{ height: '100vh', backgroundImage: `url(${ tqbg })`, backgroundSize: 'cover', backgroundPosition: 'center' }} className="position-relative w-100 hero-bg">
                 <div className="position-absolute text-white d-flex flex-column justify-content-center" style={{ top: '0', right: 0, bottom: 0, left: 0, backgroundColor: 'rgba(0,0,0,.7)' }}>
                     <div className="container">
                         <div className="row h-100">
@@ -41,11 +49,10 @@ function Home()
                         </div>
                     </div>
                     <div className='col-3 col-md-2 align-self-end fade-in-text delayed'>
-                        <div className='hero-hr'></div>
                     </div>
                 </div>
             </div>
-        </div>
+
         </>
     );
 }
