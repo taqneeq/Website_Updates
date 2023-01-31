@@ -12,6 +12,7 @@ const ParentContainer = () => {
     <div className="main-tq">
       <video src={videobg} autoPlay loop muted/>
     </div>
+    <div className="overlay"></div>
     <div className="Content-main-tq">
       <h1>About Taqneeq</h1>
       <p>lorem</p>
