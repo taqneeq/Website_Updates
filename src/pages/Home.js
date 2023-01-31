@@ -23,8 +23,8 @@ function Home()
             <video autoPlay loop muted>
                 <source src = {svid} type="video/mp4"/>
             </video>
-            </div>
 
+            </div>
         <div>
                 <div className="position-absolute text-white d-flex flex-column justify-content-center" style={{ top: '0', right: 0, bottom: 0, left: 0, backgroundColor: 'rgba(0,0,0,.7)' }}>
                     <div className="container">
@@ -52,6 +52,7 @@ function Home()
                     </div>
                 </div>
             </div>
+
         </>
     );
 }
