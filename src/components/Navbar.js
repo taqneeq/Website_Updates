@@ -36,7 +36,7 @@ export default function Navbar()
                 </div>
                 <a className="navbar-brand fw-bold" href="contactus"></a>
                 <a className="navbar-brand" href="/">
-                    <img src={tqlogo} width="65" height="65" alt="" />
+                    <img src={tqlogo} width="50" height="50" alt="" />
                 </a>
             </nav>
         </div>

@@ -9,7 +9,6 @@ const ParentContainer = () => {
     <>
             <Animate_cursor />
     <div>
-      <span> ABOUT TAQNEEQ! </span>
     <div className="parentContainer scroll-c">
         <div className="abouttext">
           <p>
