@@ -11,24 +11,27 @@ import ParentContainer from './pages/ParentContainer';
 import Timeline from './pages/timeline';
 import Workshop from './pages/Workshop';
 import Event from './pages/Event';
+import Animate_cursor from './components/animate_cursor';
 
-
-function App()
-{
+function App() {
     return (
-        <BrowserRouter>
-            <Navbar/>
-            <Routes>
-                <Route index element={<Home />} />
-                <Route exact path="contactus" element={<ContactUs />} />
-                <Route exact path="rewind" element={<Rewind />} />
-                <Route exact path="sponsors" element={<Head />} />
-                <Route exact path="abouttq" element={<ParentContainer />} />
-                <Route exact path="schedule" element={<Timeline />} />
-                <Route exact path="workshops" element={<Workshop />} />
-                <Route exact path="events" element={<Event />} />
-            </Routes>
-        </BrowserRouter>
+        <>
+        <Animate_cursor />
+            <BrowserRouter>
+                <Navbar />
+                <Routes>
+                    <Route index element={<Home />} />
+                    <Route exact path="contactus" element={<ContactUs />} />
+                    <Route exact path="rewind" element={<Rewind />} />
+                    <Route exact path="sponsors" element={<Head />} />
+                    <Route exact path="abouttq" element={<ParentContainer />} />
+                    <Route exact path="schedule" element={<Timeline />} />
+                    <Route exact path="workshops" element={<Workshop />} />
+                    <Route exact path="events" element={<Event />} />
+                </Routes>
+            </BrowserRouter>
+        </>
+
     );
 }
 
