@@ -10,42 +10,42 @@ export default function Event()
     <a class="card_event" href="modal">
       <div class="card__background"></div>
       <div class="card__content">
-        <p class="card__category">5th February</p>
+        <p class="card__category">5th <br/>February</p>
         <h3 class="card__heading">PINEWOOD DERBY</h3>
       </div>
     </a>
     <a class="card_event" href="#">
       <div class="card__background"></div>
       <div class="card__content">
-        <p class="card__category">5th February</p>
+        <p class="card__category">5th <br/>February</p>
         <h3 class="card__heading">Maze Solver</h3>
       </div>
     </a>
     <a class="card_event" href="#">
       <div class="card__background"></div>
       <div class="card__content">
-        <p class="card__category">5th February</p>
+        <p class="card__category">5th <br/>February</p>
         <h3 class="card__heading">Smart Football</h3>
       </div>
     </a>
     <a class="card_event" href="#">
       <div class="card__background"></div>
       <div class="card__content">
-        <p class="card__category">6th February</p>
+        <p class="card__category">6th <br/>February</p>
         <h3 class="card__heading">Mission Impossible</h3>
       </div>
     </a>
     <a class="card_event" href="#">
       <div class="card__background"></div>
       <div class="card__content">
-        <p class="card__category">6th February</p>
+        <p class="card__category">6th <br/>February</p>
         <h3 class="card__heading">Piano Tiles</h3>
       </div>
     </a>
     <a class="card_event" href="#">
       <div class="card__background"></div>
       <div class="card__content">
-        <p class="card__category">6th February</p>
+        <p class="card__category">6th <br/>February</p>
         <h3 class="card__heading">Earthquake Proof</h3>
       </div>
     </a>  
