@@ -22,8 +22,8 @@ export default function Navbar()
                         <div>
                             <div>
                                 <ul>
-                                    {/* <li><a href="sponsors"><b>Sponsors</b></a></li> */}
                                     <li><a href="abouttq"><b>About TQ</b></a></li>
+                                    <li><a href="sponsors"><b>Sponsors</b></a></li>
                                     <li><a href="schedule"><b>Schedule</b></a></li>
                                     <li><a href="workshops"><b>Workshops</b></a></li>
                                     <li><a href="events"><b>Events</b></a></li>

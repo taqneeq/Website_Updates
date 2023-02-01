@@ -1,10 +1,18 @@
 import Animate_cursor from '../components/animate_cursor'
+import videobg from '../assets/svid.mp4'  
 
 const Timeline=()=>{
     return(
         <>
-        
             <Animate_cursor />
+    
+
+    <div className="sch">
+      <video src={videobg} autoPlay loop muted/>
+      <div className='overlay'></div>
+    </div>
+
+
     <div>
         <h2 className="scheduletext">SCHEDULE</h2>
     <div className="timeline"> 

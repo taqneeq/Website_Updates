@@ -3,6 +3,7 @@ import { useEffect } from 'react';
 import Aos from 'aos';
 import "aos/dist/aos.css";
 import Animate_cursor from '../components/animate_cursor'
+import videobg from '../assets/svid2.mp4'
 
 
 export default function Head() {
@@ -47,6 +48,12 @@ export default function Head() {
     const height = "600px";
     return (
         <>
+
+    <div className="main-tq">
+      <video src={videobg} autoPlay loop muted/>
+    </div>
+
+        
             <Animate_cursor />
             <section class="gallery min-vh-100" id="hide_sponsor">
                 <div class="container-lg" data-aos="fade-up">
