@@ -1,9 +1,5 @@
 import React from 'react'
 import tqlogo from "../assets/tqlogo.png"
-import Animate_cursor from '../components/animate_cursor'
-import { useEffect } from 'react';
-import { useState } from 'react'
-import Aos from 'aos';
 import "aos/dist/aos.css";
 
 
@@ -12,9 +8,8 @@ export default function Navbar()
 
     return (
         <>
-        <Animate_cursor/>
         <div>
-            <nav className="navbar navbar-dark shadow-5-strong p-navbar fixed-top">
+            <nav className="navbar shadow-5-strong p-navbar fixed-top">
                 <div className="menu-wrap">
                     <input type="checkbox" className="toggler" />
                     <div className="hamburger"><div></div></div>
@@ -22,13 +17,13 @@ export default function Navbar()
                         <div>
                             <div>
                                 <ul>
-                                    <li><a href="abouttq"><b>About TQ</b></a></li>
-                                    <li><a href="sponsors"><b>Sponsors</b></a></li>
-                                    <li><a href="schedule"><b>Schedule</b></a></li>
-                                    <li><a href="workshops"><b>Workshops</b></a></li>
-                                    <li><a href="events"><b>Events</b></a></li>
-                                    <li><a href="contactus"><b>Contact</b></a></li>
-                                    <li><a href="rewind"><b>Rewind</b></a></li>
+                                    <li><a className='fw-bold' href="abouttq">About TQ</a></li>
+                                    <li><a className='fw-bold' href="sponsors">Sponsors</a></li>
+                                    <li><a className='fw-bold' href="schedule">Schedule</a></li>
+                                    <li><a className='fw-bold' href="workshops">Workshops</a></li>
+                                    <li><a className='fw-bold' href="events">Events</a></li>
+                                    <li><a className='fw-bold' href="contactus">Contact</a></li>
+                                    <li><a className='fw-bold' href="rewind">Rewind</a></li>
                                 </ul>
                             </div>
                         </div>

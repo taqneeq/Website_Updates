@@ -1,11 +1,9 @@
 import React from 'react'
-import Animate_cursor from '../components/animate_cursor'
 
 function Rewind()
 {
     return (
         <>
-            <Animate_cursor />
         <div className='' style={{ height: '100vh' }}>
             <div className="d-flex justify-content-center align-items-center h-100" >
                 <div className="container text-center">
